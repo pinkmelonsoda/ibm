@@ -1,0 +1,7 @@
+# All chars in a line after '#' are comments
+spec:bus 64 # specifies bus size, here 64 bits
+spec:page 12 # specifies page size, here 212
+spec:ram 8 # (optional) RAM size in Gibit (230 bytes)
+spec:table i # (opt) page table type: d(irect), i(nverted), h(ierarchical)
+spec:entry 64 # (opt) size in bits of one entry of the page table, here 64
+# The following part specifies one command per line
